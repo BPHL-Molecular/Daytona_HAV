@@ -98,20 +98,12 @@ The second column of the above table indicates that 123349 reads 93.58%) in the 
 
 Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it fails to pass the quality check.      
 
-### 3. Phylogenetic tree at genotype level
+### 3. Phylogenetic tree 
 
-For the phylogenetic tree at genotype level, the test samples will be compared with 7 HCV genotypes. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree.      
-
-
-<img width="6244" height="5591" alt="SNPs_boot_7genotypes_annotated" src="https://github.com/user-attachments/assets/4ecd0625-7c20-467f-b980-968d615720d9" />
+For the phylogenetic tree, the test samples will be compared with 17 HAV references. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree.      
 
 
-### 4. Phylogenetic tree at subtype level
-
-For the phylogenetic tree at subtype level, the test samples will be compared with 61 HCV subtypes. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree.        
-
-
-<img width="6310" height="5592" alt="SNPs_boot_61subtypes_annotated" src="https://github.com/user-attachments/assets/add4ef7c-d459-43ad-8c32-24ed590ffbb2" />
+<img width="2265" height="2370" alt="SNPs_boot_genotype contree" src="https://github.com/user-attachments/assets/c98424a9-7f84-440b-bf04-038ad921a6fc" />
 
 
 ## Test data
