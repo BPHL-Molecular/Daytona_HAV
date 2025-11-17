@@ -89,14 +89,14 @@ sbatch Daytona_HAV.sh   # generate phylogenetic tree
 |:---|:---|:---|             
 |xxx25002686_S1|Hepatitis A/12092/93.58/123349|...|       
                                               
-The second column of the above table indicates that 875 reads (0.07%) in the sample (xxx25002686_S1) are identified as HCV species. Among it, 872 reads (0.07%) are identified as HCV genotype 4, while 2 reads (0.00%) are identified as HCV genotype 6. Note, the reason why the two percentages are the same is due to rounding. Similarly, the same reason applies to 0 percentage.      
+The second column of the above table indicates that 123349 reads 93.58%) in the sample (xxx25002686_S1) are identified as HAV species.           
 ### 2. Variants    
 |REGION|POS|REF|ALT|...|PVAL|PASS|...|        
 |:---|:---|:---|:---|:---|:---|:---|:---|             
-|KC248195.1|28|T|C|...|0.16|FALSE|...|
-|KC248195.1|107|G|A|...|0.04|TRUE|...|                   
+|NC_001489.1|2895|T|G|...|0.526316|FALSE|...|
+|NC_001489.1|2927|T|C|...|0|TRUE|...|                   
 
-PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it fails to pass the quality check.      
+<mark>***Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it fails to pass the quality check.***</mark>      
 
 ### 3. Phylogenetic tree at genotype level
 
