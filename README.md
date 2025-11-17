@@ -107,7 +107,8 @@ For the phylogenetic tree, the test samples will be compared with 17 HAV referen
 
 
 ## Test data
-5 pairs of test fastq data can be found in /blue/bphl-florida/share/Daytona_HCV_test_sample. To use them, please copy them to the directory .../fastqs/hcv/.         
+Test data can be found in /blue/bphl-florida/share/Daytona_HAV_test_sample. To use them, please copy them to the directory .../fastqs/hav/.    
+Also, the results of these test data can be found in in /blue/bphl-florida/share/Daytona_HAV_test_sample/output-20251009215948.
 
 ## Contact
 If you want to report bugs, suggest enhancements, discuss ideas related to the project, please use the repository's "Issues" tab in GitHub.
