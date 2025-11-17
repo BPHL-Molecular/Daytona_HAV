@@ -96,7 +96,7 @@ The second column of the above table indicates that 123349 reads 93.58%) in the 
 |NC_001489.1|2895|T|G|...|0.526316|FALSE|...|
 |NC_001489.1|2927|T|C|...|0|TRUE|...|                   
 
-<mark>***Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it fails to pass the quality check.***</mark>      
+Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it fails to pass the quality check.      
 
 ### 3. Phylogenetic tree at genotype level
 
