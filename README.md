@@ -1,7 +1,7 @@
 # Daytona_HAV
 ## Introduction
 
-This pipeline can perform species detection and phylogeny analysis of Heptatits A virus (HCV). Illumina paired-end sequencing data are required for the pipeline. The phylogenetic relationship is built based on SNP sequences. 17 HAV samples from NCBI are used as references to analyze phylogenetic relationship of the test samples.
+This pipeline can perform species detection and phylogeny analysis of Heptatits A virus (HAV). Illumina paired-end sequencing data are required for the pipeline. The phylogenetic relationship is built based on SNP sequences. 17 HAV samples from NCBI are used as references to analyze phylogenetic relationship of the test samples.
 
 ## Prerequisites
 Nextflow is needed. The details of installation can be found at https://github.com/nextflow-io/nextflow. For HiPerGator users, its installation is not needed. 
