@@ -68,29 +68,26 @@ gitGraph
 
 ## Recommended conda environment installation
    ```bash
-   conda create -n HCV -c conda-forge python=3.10
+   conda create -n HAV -c conda-forge python=3.10
    ```
    ```bash
-   conda activate HCV
+   conda activate HAV
    ```
 
 
 ## How to run
 
-1. put your data files into the directory /fastqs/hcv/. Your data file's name should look like "XZA22002292_1.fastq.gz", "XZA22002292_2.fastq.gz". You may use the script <mark>***rename.sh***</mark> to rename your data files. 
-2. open the file "params_hcv.yaml", and set the parameters absolute paths. They should be ".../.../fastqs/hcv", ".../.../output", etc. 
-3. get into the top directory of the pipeline and then select one of the following commands to run.      
+1. put your data files into the directory /fastqs/hav/. Your data file's name should look like "XZA22002292_1.fastq.gz", "XZA22002292_2.fastq.gz". You may use the script <mark>***rename.sh***</mark> to rename your data files. 
+2. open the file "params_hcv.yaml", and set the parameters absolute paths. They should be ".../.../fastqs/hav", ".../.../output", etc. 
+3. get into the top directory of the pipeline and then run the following command.      
 ```bash
-sbatch Daytona_HCV.sh   # generate phylogenetic tree at HCV genotype level
-sbatch Daytona_HCV.sh genotype   # generate phylogenetic tree at HCV genotype level
-sbatch Daytona_HCV.sh subtype  # generate phylogenetic tree at HCV subtype level
-sbatch Daytona_HCV.sh both  # generate phylogenetic trees at genotype level and subtype level
+sbatch Daytona_HAV.sh   # generate phylogenetic tree
 ```       
 ## Main output
-### 1. HCV reads detection      
-|sampleID|k_species/percent(%)/number|...|        
+### 1. HAV reads detection      
+|sampleID|species/tax_ID/percent(%)/number|...|        
 |:---|:---|:---|             
-|xxx25002686_S1|Hepacivirus hominis/0.07/875,Hepatitis C virus genotype 4/0.07/872,Hepatitis C virus genotype 6/0.00/2|...|       
+|xxx25002686_S1|Hepatitis A/12092/93.58/123349|...|       
                                               
 The second column of the above table indicates that 875 reads (0.07%) in the sample (xxx25002686_S1) are identified as HCV species. Among it, 872 reads (0.07%) are identified as HCV genotype 4, while 2 reads (0.00%) are identified as HCV genotype 6. Note, the reason why the two percentages are the same is due to rounding. Similarly, the same reason applies to 0 percentage.      
 ### 2. Variants    
