@@ -104,7 +104,8 @@ For the phylogenetic tree, the test samples will be compared with 17 HAV referen
 
 <img width="2366" height="2349" alt="hav tree" src="https://github.com/user-attachments/assets/3ea89158-7ac4-49ad-9fdb-ef469d9f4a34" />
 
-
+## How to detect sample genotypes from phylogenetic trees
+In order to detect a test sample's HAV genotype from phylogenetic trees, one possible approach is to add HAV samples with known genotypes as positive controls and construct a phylogenetic tree together with the test samples.     
 
 ## Test data
 Test data can be found in /blue/bphl-florida/share/Daytona_HAV_test_sample. To use them, please copy them to the directory .../fastqs/hav/.    
