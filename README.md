@@ -102,8 +102,8 @@ Note: PASS is the result of p-value <= 0.05. If a SNP's PASS value is FALSE, it 
 
 For the phylogenetic tree, the test samples will be compared with 17 HAV references. The phylogenetic bootstrap test with 1,000 replicate datasets will be performed to assess the statistical support for nodes (branches) on the phylogenetic tree.      
 
+<img width="2366" height="2349" alt="hav tree" src="https://github.com/user-attachments/assets/3ea89158-7ac4-49ad-9fdb-ef469d9f4a34" />
 
-<img width="2265" height="2370" alt="SNPs_boot_genotype contree" src="https://github.com/user-attachments/assets/c98424a9-7f84-440b-bf04-038ad921a6fc" />
 
 
 ## Test data
