@@ -1,7 +1,7 @@
 # Daytona_HAV
 ## Introduction
 
-This pipeline can perform the genotype detection and phylogeny analysis of Heptatits C virus (HCV). Illumina paired-end sequencing data are required for the pipeline. The phylogenetic relationship is built based on SNP sequences. 7 HCV genotypes and 61 HCV subtypes from NCBI are used as references to analyze phylogenetic relationship of the test samples.
+This pipeline can perform species detection and phylogeny analysis of Heptatits A virus (HCV). Illumina paired-end sequencing data are required for the pipeline. The phylogenetic relationship is built based on SNP sequences. 17 HAV samples from NCBI are used as references to analyze phylogenetic relationship of the test samples.
 
 ## Prerequisites
 Nextflow is needed. The details of installation can be found at https://github.com/nextflow-io/nextflow. For HiPerGator users, its installation is not needed. 
@@ -54,29 +54,12 @@ gitGraph
        commit id: "phylogeny"
        branch Phylogeny
        checkout Phylogeny
-       
-       
-       commit id: "genotype level"
-       branch Genotype_level
-       checkout Genotype_level
        commit id: "mafft with 7 genotypes"
        commit id: "snp-sites with 7 genotypes"
        commit id: "iqtree with 7 genotypes"
        commit id: "phytreeviz with 7 genotypes"
-       checkout Phylogeny
-       merge Genotype_level
-
-       commit id: "subtype level"
-       branch Subtype_level
-       checkout Subtype_level
-       commit id: "mafft with 61 subtypes"
-       commit id: "snp-sites with 61 subtypes"
-       commit id: "iqtree with 61 subtypes"
-       commit id: "phytreeviz with 61 subtypes"
-       checkout Phylogeny
-       merge Subtype_level
-       checkout Daytona_HCV
        merge Phylogeny
+       
     
 ```
 
